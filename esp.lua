@@ -1,3 +1,4 @@
+while wait(0.5) do
 for i, childrik in ipairs(workspace:GetDescendants()) do
         if childrik:FindFirstChild("Humanoid") then
             if not childrik:FindFirstChild("EspBox") then
