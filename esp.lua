@@ -1,6 +1,6 @@
 while wait(0.5) do
   for i, childrik in ipairs(workspace:GetDescendants()) do
-    if not childrik:FindFirstChild("EspBox") then
+    if not childrik:FindFirstChild("Humanoid") then
       if childrik ~= game.Players.LocalPlayer.Character then
         local esp = Instance.new("BoxHandleAdornment", childrik)
         esp.Adornee = childrik
